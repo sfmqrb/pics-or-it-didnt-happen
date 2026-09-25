@@ -1,0 +1,14 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "pics-or-it-didnt-happen",
+  "description": "Give your coding agent trust issues. No receipt, no claim.",
+  "owner": { "name": "sfmqrb" },
+  "plugins": [
+    {
+      "name": "pics-or-it-didnt-happen",
+      "description": "Stops fake \"all tests pass\" claims: every success claim needs a command it actually ran.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

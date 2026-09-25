@@ -1,0 +1,12 @@
+{
+  "name": "pics-or-it-didnt-happen",
+  "interface": { "displayName": "Pics Or It Didn't Happen" },
+  "plugins": [
+    {
+      "name": "pics-or-it-didnt-happen",
+      "source": { "source": "url", "url": "https://github.com/sfmqrb/pics-or-it-didnt-happen.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

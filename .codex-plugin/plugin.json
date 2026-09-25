@@ -1,0 +1,25 @@
+{
+  "name": "pics-or-it-didnt-happen",
+  "version": "0.1.0",
+  "description": "Give Codex trust issues. No receipt, no claim: it can't say \"tests pass\" or \"fixed\" unless it ran the check and quotes the output.",
+  "author": { "name": "sfmqrb", "url": "https://github.com/sfmqrb" },
+  "homepage": "https://github.com/sfmqrb/pics-or-it-didnt-happen",
+  "repository": "https://github.com/sfmqrb/pics-or-it-didnt-happen",
+  "license": "MIT",
+  "keywords": ["verification", "testing", "honesty", "skills", "codex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pics Or It Didn't Happen",
+    "shortDescription": "No receipt, no claim",
+    "longDescription": "Stops the agent from claiming tests pass, bugs are fixed, or builds succeed unless it ran the check in this session and quotes the output. Everything else is labeled UNVERIFIED with the command to verify it.",
+    "developerName": "sfmqrb",
+    "category": "Productivity",
+    "capabilities": ["Instructions"],
+    "websiteURL": "https://github.com/sfmqrb/pics-or-it-didnt-happen",
+    "defaultPrompt": [
+      "Use pics-or-it-didnt-happen for this task.",
+      "Fix this and prove it with receipts.",
+      "Did you actually run the tests?"
+    ]
+  }
+}
