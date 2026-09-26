@@ -2,9 +2,19 @@
   "name": "pics-or-it-didnt-happen",
   "version": "0.1.0",
   "description": "Give your coding agent trust issues. No receipt, no claim: it can't say \"tests pass\" or \"fixed\" unless it ran the check and quotes the output.",
-  "author": { "name": "sfmqrb", "url": "https://github.com/sfmqrb" },
+  "author": {
+    "name": "sfmqrb",
+    "url": "https://github.com/sfmqrb"
+  },
   "homepage": "https://github.com/sfmqrb/pics-or-it-didnt-happen",
   "repository": "https://github.com/sfmqrb/pics-or-it-didnt-happen",
   "license": "MIT",
-  "keywords": ["verification", "testing", "honesty", "skills", "claude-code"]
+  "keywords": [
+    "verification",
+    "testing",
+    "honesty",
+    "skills",
+    "claude-code"
+  ],
+  "hooks": "./hooks/hooks.json"
 }

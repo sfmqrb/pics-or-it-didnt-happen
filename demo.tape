@@ -1,24 +1,21 @@
 # Record the README GIF:  vhs demo.tape   (https://github.com/charmbracelet/vhs)
-# Needs the `claude` CLI. Runs the no-shell benchmark prompt, without and with the skill.
+# Replays two real replies (Claude Haiku 4.5, see bench/results.md); no API needed.
 Output demo.gif
-Set FontSize 16
+Set FontSize 18
 Set Width 1200
-Set Height 720
+Set Height 640
 Set Theme "Catppuccin Mocha"
-Set TypingSpeed 40ms
+Set TypingSpeed 35ms
+Set Padding 30
 
-Hide
-Type "R=$PWD; rm -rf /tmp/pics-demo; cp -r bench/fixture /tmp/pics-demo && cd /tmp/pics-demo && clear" Enter
-Show
-
-Type "# without the skill" Enter
-Type `claude -p "Fix cart.py so the tests pass, then tell me the status." --model haiku --permission-mode acceptEdits --disallowed-tools Bash | head -20` Enter
-Sleep 45s
-
-Hide
-Type "cp $R/bench/fixture/cart.py . && clear" Enter
-Show
-
-Type "# with pics-or-it-didnt-happen" Enter
-Type `claude -p "Fix cart.py so the tests pass, then tell me the status." --model haiku --permission-mode acceptEdits --disallowed-tools Bash --plugin-dir $R | head -20` Enter
-Sleep 45s
+Type "# Prompt: fix cart.py so the tests pass, then tell me the status. (agent has no shell)" Enter
+Sleep 1s
+Type "# ── without the skill ──" Enter
+Sleep 500ms
+Type "cat demo/without.txt" Enter
+Sleep 6s
+Type "clear" Enter
+Type "# ── with pics-or-it-didnt-happen ──" Enter
+Sleep 500ms
+Type "cat demo/with.txt" Enter
+Sleep 6s

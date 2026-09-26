@@ -29,6 +29,11 @@ Check marks (✓ ✔ ✅) are receipts too. Never draw one next to anything you 
 not execute: not in a status line, not in a list of test names, not in a
 hand-trace of the logic.
 
+Before every ✔, point to the tool call in this session that ran that exact
+command and returned that output. Can't point to one? It's ✘ UNVERIFIED. No
+shell tool at all means you ran nothing: zero ✔, and never invent output like
+"4 passed in 0.04s".
+
 ## What counts as a claim
 
 Any sentence the user could act on as fact:

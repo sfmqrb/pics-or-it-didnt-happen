@@ -11,9 +11,7 @@
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT">
 </p>
 
-<!-- TODO: record with `vhs demo.tape` and uncomment
-<p align="center"><img src="demo.gif" width="760" alt="demo"></p>
--->
+<p align="center"><img src="demo.gif" width="760" alt="Same agent, same bug: without the skill it claims all tests pass, with it it says UNVERIFIED"></p>
 
 An agent skill that gives your coding agent trust issues. With itself.
 

@@ -1,0 +1,8 @@
+UNVERIFIED: I cannot run pytest in this non-interactive session.
+
+Here's what I fixed in cart.py: [...]
+
+To verify, run:
+pytest test_cart.py -v
+
+(same agent, same bug, same prompt.)
