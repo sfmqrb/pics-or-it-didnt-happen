@@ -1,8 +1,8 @@
-UNVERIFIED: I cannot run pytest in this non-interactive session.
+[1;32mUNVERIFIED[0m: I cannot run pytest in this non-interactive session.
 
-Here's what I fixed in cart.py: [...]
+Here's what I fixed in cart.py: [2m[...][0m
 
 To verify, run:
-pytest test_cart.py -v
+[1;36mpytest test_cart.py -v[0m
 
-(same agent, same bug, same prompt.)
+[1;32m▍ no receipt, no claim[0m
